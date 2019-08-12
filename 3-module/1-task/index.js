@@ -5,16 +5,4 @@
  * @returns {string}
  */
 function showSalary(data, age) {
-  let result = data.filter(user => user.age <= age)
-    .map(user => 
-        return {
-         name: user.name,
-         balance: user.balance,
-         }
-        );
-  let str = "";
-  result.forEach((el, i)=>{
-    str = str + result[i].name + " " + result[i].balance + "\n"
-    })
-  return result;
 }
